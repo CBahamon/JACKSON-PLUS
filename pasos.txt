@@ -1,0 +1,62 @@
+•instalar las librerias necesarias
+/*
+react-responsive-carousel
+apikey="ce799ecf793db0b2478c82ccb2970f14"
+example="https://api.themoviedb.org/3/movie/550?api_key=ce799ecf793db0b2478c82ccb2970f14"
+api token="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZTc5OWVjZjc5M2RiMGIyNDc4YzgyY2NiMjk3MGYxNCIsInN1YiI6IjYwMjc2NmViY2U0ZGRjMDAzZjFjMTc0OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.adQR87kDUw7WgOf09QrEBXmcmNwmsqfCPlPa4I4d_gs"
+
+*/
+
+•crear las carpetas 'service' y 'components'
+
+•En service creamos el archivo 'index.js' donde se encontraran todos los llamados a la api
+
+•Ponerle algo de estilo al body en el 'index.html'
+
+•en 'App.js' creamos la primera ruta , creamos la carpeta 'home' en 'components' y dentro el componente 'Home.js'
+
+•creamos la carpeta 'moviedetail' y dentro el componente 'MovieDetail.js'
+
+•dentro del 'index.js' en la carpeta 'src' agregamos el BrouserRouter y lo cambiamos por lo que habia 
+
+•en 'Home.js' hacemos el llamado de la api para las imagenes del carrusel
+
+•creamos la variable movies para  traer las imagenes que va a llevar el corrusel
+
+•creamos el carousel
+
+•creamos el genreList haciendo la peticion a la API en el 'index.js' de la carpeta 'service' y luego en 'home.js' lo plasmamos
+
+•en 'index.js' de 'service' creamos el llamado de 'fetchMovieByGenre'
+
+•creamos 'movieList' en 'Home.js' y mostramos las tarjeta con su imagen nombre y rating  
+
+•en 'index.js' de 'service' creamos el llamado de 'fetchPersons'
+
+•creamos 'trendingPerson' en 'Home.js' y mostramos la personas 
+
+•en 'index.js' de 'service' creamos el llamado de 'fetchTopratedMovie'
+
+•creamos 'topRatedList' en 'Home.js' y mostramos la peliculas mas top 
+
+•en el boton donde salen las categorias de ponemos la accion onclick y la creamos en el home llamada 'handleGenreClick'
+
+•empezamos a crear el componente 'MovieDetail.js' mandando los datos de la peli seleccionada
+
+•creamos el llamado de la api y inicialmente mostramos la imagen de la peli con un boton de reproducir en la mitad para mas adelante mostrarla
+
+•Empezamos a crear el modal para mostrar el trailer
+
+•creamos el state y el llamado a la API para traer el video desde youtube
+
+•creamos el genRes que son las categorias de la pelicula 
+
+•creamos las estrellas de calificacion y la descripcion
+
+•hacemos los llamados de cast y moviesSimilar a la API
+
+•recibimos los datos y mostramos al casts y luego a moviesSimiliat 
+
+•por ultimo mostramos los datos de la pelicula
+•
+•

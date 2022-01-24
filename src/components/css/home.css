@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap'); /*3*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/* fuente principal */
+
+
+.carousel-caption {
+    color: #ffffff  !important;
+    text-align: 'center';font-family: 'Oswald', sans-serif;
+    font-size: 45px ; 
+    text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
+  }
+  
+
+  
+  .fa-arrow-alt-circle-right{
+    color: rgba(0,178,255,1);
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .fa-arrow-alt-circle-right:hover{
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+.carousel{
+  margin-top: 64px;
+}
+
+ .container-corousel{
+   width: 100%;
+   position: fixed;
+   height: 100%;
+ } 
+
+.container-main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+} 
+
+.container-item{
+  width: 80%;
+  margin-top: 100vh;
+}
+
+.card {
+  border-radius: 3px;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+}
+
+.card-1 {
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.card-1:hover {
+  background-color: #1f1e1e;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+

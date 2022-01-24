@@ -1,0 +1,23 @@
+.list-inline-item{
+    /* margin:auto; */
+}
+
+.list-inline-item .btn-outline-info {
+    font-family: 'Raleway', sans-serif;
+    /* font-size: 30px; */
+    font-weight: 500;  
+    color: #fff ;
+    border: 3px solid rgba(0,178,255,1);
+    margin-bottom: 10px;
+    border-radius: 17px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.list-inline-item .btn-outline-info:hover {
+    color: #ffffff ;
+    border-color: rgb(0, 143, 204);
+    background-color: rgb(0, 143, 204);
+    transition: all 0.3s ease-in-out;
+  }

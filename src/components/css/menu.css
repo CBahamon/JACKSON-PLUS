@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap'); /* fuente logo*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/* fuente principal */
+
+#titulo{
+    color: #FFFFFF ;
+    font-size: 35px ;
+    font-family: 'Megrim', cursive;
+}
+
+#plus{
+    margin-top: -10px;
+    font-size: 65px;
+    font-family: 'Megrim', cursive;
+    color: #FFFFFF ;
+    text-decoration: none;
+}
+
+#menu{
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+#botones{
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 500 ;
+    font-size:medium;
+    /* font-style: italic; */
+    
+}
+
+#logo{
+    /* filter: invert(0.4); */
+    width: 38px;
+    text-decoration: none;
+}
+
+
+
+#titulo{
+    text-decoration: none;
+}
+
+#vista{
+    text-decoration: none;
+    margin-left: -250px;
+    transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+}
+
+#vista:hover {
+    transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+    -moz-filter: opacity(1) drop-shadow(0 0 0 rgba(0,178,255,1));
+    -webkit-filter: opacity(1) drop-shadow(0 0 0 rgba(0,178,255,1));
+    filter: opacity(1) drop-shadow(0 0 0 rgba(0,178,255,1));
+
+    text-decoration: none;
+    color: #fff;
+    
+    text-shadow:
+        0 0 5px rgba(0,178,255,1),
+        0 0 10px rgba(0,178,255,1),
+        0 0 20px rgba(0,178,255,1),
+        0 0 40px rgba(38,104,127,1),
+        0 0 80px rgba(38,104,127,1),
+        0 0 90px rgba(38,104,127,1),
+        0 0 100px rgba(38,104,127,1),
+        0 0 140px rgba(38,104,127,1),
+        0 0 180px rgba(38,104,127,1);
+}
+
+   
+
+#container-menu{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    z-index: 1000;
+}
+
+/* 
+mostaza = e9bd15
+*/
+PALETA_OFICIAL{
+    color: #FFFFFF;
+    color: #FFCB3A ;
+    color: #262626; 
+    color: #8A1C7C; 
+
+}
+
+PALETA_1{
+    
+    color: #A0D2EB;
+    color: #E5EAF5;
+    color: #D0BDF4;
+    color: #8458B3;
+    color: #494D5F; 
+}
+PALETA_2{
+    
+    color: #FFFFFF;
+    color: #FFCA00;
+    color: #FF6732;
+    color: #00F2FF;
+    color: #2A2F3D; 
+    color: #181c1d; 
+    color: #1e2222; 
+    color: #1E2425; 
+    
+} 
+PALETA_3{
+    
+    color: #FF8692;
+    color: #E5EAF5;
+    color: #92A5FD;
+    color: #587FFC;
+    color: #1E1E5D; 
+} 
+PALETA_4{
+    
+    color: #FF4F61;
+    color: #FFCB3A;
+    color: #511D47;
+    color: #343B3C;
+    color: #1E2425; 
+} 
+PALETA_5{
+    
+    color: #FFCEEA;
+    color: #5B5B5B;
+    color: #AEAEAE;
+    color: #EFEFEF;
+    color: #FFFFFF; 
+} 
+
+
+/* <nav className="navbar navbar-expand navbar-dark bg-dark"  >
+<a class="navbar-brand" href="#">
+    <img src={logo} alt="Logo" style={{width:"40px"}} />
+</a>
+    <div className="container-fluid">
+        <Link className="navbar-brand" to="/">JACKSON +</Link>
+
+        <div className="collapse navbar-collapse"  id="navbarNavAltMarkup">
+            <div className="navbar-nav" >
+                <NavLink exact activeClassName="active"  className="nav-link" aria-current="page" to="/">Home</NavLink>
+                <NavLink exact activeClassName="active" className="nav-link " to="/login">Login</NavLink>
+                <NavLink exact activeClassName="active" className="nav-link" to="/"></NavLink>
+            </div>
+        </div>
+    </div>
+</nav>    */
+
